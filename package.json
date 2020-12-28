@@ -1,0 +1,11 @@
+{
+  "name": "boilerplate-webpack-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yasminn Vaz <yasminnvaz@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "webpack"
+  ]
+}
