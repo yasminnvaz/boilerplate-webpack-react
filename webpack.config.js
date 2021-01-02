@@ -33,7 +33,14 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|svg)$/i,
-                use: [{ loader: 'file-loader', },],
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: 'assets/[hash]-[name].[ext]',
+                        },
+                    },
+                ],
             },
             {
                 test: /\.js$/,
